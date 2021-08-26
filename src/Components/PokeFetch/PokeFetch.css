@@ -26,10 +26,15 @@
   align-self: flex-start;
   margin-top: -100px;
   margin-left: 18vw;
+  position: relative;
 }
 
 .pokeImg {
   width: 500px;
+}
+.pokeShadow {
+  width: 500px;
+  filter: brightness(0%);
 }
 
 .pokeName {
