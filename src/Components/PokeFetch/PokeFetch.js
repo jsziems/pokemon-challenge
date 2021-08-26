@@ -14,7 +14,6 @@ class PokeFetch extends Component {
   }
 
   componentDidUpdate() {
-
     console.log('Updating')
   }
 
@@ -45,7 +44,7 @@ async fetchPokemon() {
         pokeInfo: json,
         pokeSprite: json.sprites.front_default,
         pokeName: json.species.name,
-        count: 3,
+        count: 10
       })
       this.countDown()
     
